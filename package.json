@@ -1,0 +1,16 @@
+{
+  "name": "udp-relay",
+  "version": "1.0.0",
+  "description": "UDP Packet analysis tool on an MITM concept.",
+  "main": "udpRelay.js",
+  "scripts": {
+    "start": "node udpRelay.js --help",
+    "start-dev": "node node_modules/nodemon/bin/nodemon udpRelay.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PANCHO7532",
+  "license": "AGPL-3.0-or-later",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
