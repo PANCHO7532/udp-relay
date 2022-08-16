@@ -17,7 +17,7 @@ The tool requires no dependencies and can be executed right away without install
 - You can relay UDP packets to 192.168.1.2 at port 5555 using the following command line: `node udpRelay.js -dhost 192.168.1.2 -dport 5555 -lport 5553 -cport 5554`
 - Set your application to connect via localhost (or local address) to the port 5553, packets will be relayed through 5554 to the server at 5555 and relayed back through 5553 to your application
 
-## Commands
+## Command Arguments
 ```
 -dhost  Destination host/ip where captured packets would be relayed, default: 127.0.0.1
 -dport  Destination port where captured packets would be relayed, default: 10012
