@@ -4,7 +4,7 @@
   "description": "UDP Packet analysis tool on an MITM concept.",
   "main": "udpRelay.js",
   "scripts": {
-    "start": "node udpRelay.js --help",
+    "start": "node udpRelay.js -help",
     "start-dev": "node node_modules/nodemon/bin/nodemon udpRelay.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
